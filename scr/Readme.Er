@@ -1,0 +1,81 @@
+# QrAI.top
+
+AI Chatbot powered by Google Gemini + Cloudflare Workers.
+
+## Install
+
+```bash
+npm install
+```
+
+## Local Run
+
+```bash
+npm run dev
+```
+
+## Deploy
+
+```bash
+npm run deploy
+```
+
+## Gemini API Key
+
+Cloudflare Dashboard
+
+Workers & Pages
+
+↓
+
+qraitop
+
+↓
+
+Settings
+
+↓
+
+Variables
+
+↓
+
+Add Variable
+
+Name
+
+```
+GEMINI_API_KEY
+```
+
+Value
+
+```
+YOUR_GEMINI_API_KEY
+```
+
+Save
+
+Deploy Again
+
+## Worker URL
+
+Replace
+
+```
+https://YOUR-WORKER.workers.dev
+```
+
+inside
+
+```
+public/script.js
+```
+
+with
+
+```
+https://qraitop.qrai-top.workers.dev
+```
+
+Done ✅
